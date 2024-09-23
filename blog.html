@@ -16,28 +16,28 @@
 </head>
 
 <body class="font-[Lexend] max-w-[1920px] mx-auto w-screen">
-    <header class="sticky top-0 backdrop-blur-3xl">
-        <nav class="bg-[rgba(241,255,217,0.5)] pt-6 pb-8 xl:pb-14">
-            <div class="w-[80%] mx-auto flex justify-between items-center gap-5">
+    <header class="md:sticky top-0 backdrop-blur-3xl z-10">
+        <nav class="bg-[rgba(241,255,217,0.5)] py-3 sm:py-5 xl:py-10">
+            <div class="w-[90%] md:w-[80%] mx-auto flex justify-between items-center gap-5">
                 <div>
                     <button
                         class="btn h-auto text-xs md:text-xl font-medium md:font-semibold text-[#111111] px-4 md:py-3 md:px-8 rounded-lg bg-[#B4F461] active:bg-black hover:bg-gray-100 active:text-white border-none"
                         id="home-btn">
                         Home </button>
                 </div>
-                <div class="flex justify-center items-center md:gap-4 ">
-                    <img src="assets/logo.png" alt="" class="scale-[.50] md:scale-100">
-                    <h2 class="text-xs md:text-xl font-semibold text-[#111111]"> Donate Bangladesh </h2>
+                <div class="flex justify-center items-center md:gap-4">
+                    <img src="assets/logo.png" alt="" class="hidden sm:block scale-[.60] md:scale-100">
+                    <h2 class="md:text-xl font-semibold text-[#111111]"> Donate Bangladesh </h2>
                 </div>
                 <div class="flex justify-center items-center md:gap-3">
                     <img src="assets/coin.png" alt="" class="scale-[.60] md:scale-100">
-                    <p class="text-xs md:text-xl font-medium text-[rgba(17,17,17,0.70)]"> <span id="acc-balance"> 5000
-                        </span> BDT </p>
+                    <p class="text-xs md:text-[16px] lg:text-xl font-medium text-[rgba(17,17,17,0.70)]"> <span id="acc-balance"> 50000
+                        </span> <span class="hidden md:block">BDT</span> </p>
                 </div>
             </div>
         </nav>
     </header>
-    <main class="w-[80%] mx-auto my-10">
+    <main class="w-[90%] md:w-[80%] mx-auto my-10">
         <h2 class="font-bold text-3xl mb-6"> Important FAQ </h2>
         <div tabindex="0" class="collapse collapse-arrow border-base-300 border rounded-b-sm py-2 px-1">
             <div class="collapse-title text-xl font-medium">What is the Document Object Modes (DOMS)? </div>
@@ -65,6 +65,7 @@
         </div>
     </main>
     <script src="javascript/index.js"></script>
+    <script src="javascript/utilities.js"></script>
     <script>
         document.getElementById('home-btn').addEventListener('click', function () {
             window.location.href = "index.html";
