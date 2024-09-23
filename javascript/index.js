@@ -47,7 +47,7 @@ donateBtnfirst.addEventListener('click', function () {
             document.getElementById('modal').classList.add('hidden');
         })
         const div = document.createElement('div');
-        div.classList.add('border', 'border-[rgba(17,17,17,0.1)]', 'p-8', 'rounded-[32px]');
+        div.classList.add('border', 'border-[rgba(17,17,17,0.1)]','p-6', 'md:p-8', 'rounded-[16px]', 'md:rounded-[32px]');
         div.innerHTML =
             `<h3 class="text-[#111111] font-bold text-xl mb-4"> ${inputBox} Taka is Donated for Flood at Noakhali, Bangladesh </h3>
         <p> Date: <span id="current-date"></span> </p>`
@@ -82,7 +82,7 @@ donateBtnSecond.addEventListener('click', function () {
             document.getElementById('modal').classList.add('hidden');
         })
         const div = document.createElement('div');
-        div.classList.add('border', 'border-[rgba(17,17,17,0.1)]', 'p-8', 'rounded-[32px]');
+        div.classList.add('border', 'border-[rgba(17,17,17,0.1)]', 'p-6', 'md:p-8', 'rounded-[16px]', 'md:rounded-[32px]');
         div.innerHTML =
             `<h3 class="text-[#111111] font-bold text-xl mb-4"> ${inputBox} Taka is Donated for Flood Relief in Feni, Bangladesh </h3>
         <p> Date: <span id="current-date"></span> </p>`
@@ -117,7 +117,7 @@ donateBtnThird.addEventListener('click', function () {
             document.getElementById('modal').classList.add('hidden');
         })
         const div = document.createElement('div');
-        div.classList.add('border', 'border-[rgba(17,17,17,0.1)]', 'p-8', 'rounded-[32px]');
+        div.classList.add('border', 'border-[rgba(17,17,17,0.1)]', 'p-6', 'md:p-8', 'rounded-[16px]', 'md:rounded-[32px]');
         div.innerHTML =
             `<h3 class="text-[#111111] font-bold text-xl mb-4"> ${inputBox} Taka is Donated for Aid for Injured in the Quota Movement, Bangladesh </h3>
         <p> Date: <span id="current-date"></span> </p>`
